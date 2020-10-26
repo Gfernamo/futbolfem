@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Valencia Féminas F.C">
+    <meta name="keywords" content="FUTBOL FEMENI VALENCIA PRIMERA IBERDROLA">
+    <meta name="description" content="Pàgina web del club de futbol femení Valencia.">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+    <title> Valencia Féminas F.C </title>
+</head>
+
+<body>
+    <header>
+        <img src="./img/banner.PNG" width="1400" alt="Banner de Primera d'Iberdrola Femeni">
+        <nav>
+            <a href="./index.html">Tornar a l'Index</a>
+        </nav>
+    </header>
+    <main>
+        <form action="./validaenquesta.php" method="POST">
+            <p>
+                <label for="email"><b>Email</b></label>
+                <input id="email" type="email" placeholder="Introdueix el teu mail" name="correu" required>
+                <br>
+                <label for="user"><b>Usuario</b></label>
+                <input id="user" type="text" placeholder="Introdueix el teu nom" name="nom" required>
+                <br>
+                <label for="puntuacioinfo"><b>Puntuació Informació de la Web</b></label>
+                <input id="puntuacioinfo" type="number" min="1" max="5" step="1" value="1" placeholder="Introdueix la puntuació de la informació" name="puntuacioinfo" required>
+                <br>
+                <label for="puntuacioglobal"><b>Puntuacio Global</b></label>
+                <select id="puntuacioglobal" name="Puntuacioglobal">
+                    <option value="Excel·lent">Excel·lent</option>
+                    <option value="Notable" selected>Notable</option>
+                    <option value="Bona">Bona</option>
+                    <option value="Regular">Regular</option>
+                    <option value="Dolenta">Dolenta</option>
+                  </select>
+                <br>
+                <label for="Color Web"><b>Quin color t'agradaria?</b></label>
+                <input id="Color Web" name="color" type="color" value="#E36B2C">
+                <br>
+                <label for="Observacions"><b>Observacions</b></label>
+                <textarea id="Observacions" name="Observacions" rows="10" cols="100">
+                </textarea>
+                <br>
+                <input value="Enviar Enquesta" type="submit">
+                <input value="Neteja Enquesta" type="reset">
+            </p>
+        </form>
+    </main>
+    <footer>
+        <br>
+        <br>
+        <br>
+        ©Valencia Féminas F.C
+        <br>
+        <a title="Facebook" href="https://www.facebook.com/ValenciaCF/" target="_blank"><img
+                src="./img/rrss/facebook.png" alt="Link Facebook"></a>
+        <a title="Youtube" href="https://www.youtube.com/valenciacf" target="_blank"><img src="./img/rrss/youtube.png"
+                alt="Link Youtube"></a>
+        <a title="Twitter" href="https://twitter.com/valenciacf" target="_blank"><img src="./img/rrss/twitter.png"
+                alt="Link Twitter"></a>
+        <a title="Instagram" href="https://www.instagram.com/valenciacf/" target="_blank"><img
+                src="./img/rrss/instagram.png" alt="Link Instagram"></a>
+        <br>
+        Oficinas Centrales
+        <br>
+        Plaza del Valencia C.F., 2 46010 Valencia
+        <br>
+        Teléfono: (00 34) 96 337 26 26
+        <br>
+        Fax: 96 337 23 35
+    </footer>
+</body>
+
+</html>
