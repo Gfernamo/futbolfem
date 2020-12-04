@@ -1,0 +1,8 @@
+.box{
+    float:left;
+	width: 63%;
+}
+.box2{
+	float: right;
+    width: 30%;
+}
