@@ -7,21 +7,25 @@
         <meta name="description" content="Pàgina web del club de futbol femení Valencia.">
         <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
         <title> Valencia Féminas F.C </title>
+        <link rel="stylesheet" type="text/css" href="../css/common.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/resultats.css"/>
     </head>
     <body>
+        <div class="caja">
         <header>
-            <img src="../img/banner.PNG"  width="1400" alt="Banner de Primera d'Iberdrola Femeni">
+            <div class="banner">
+                <img class="banner__img" alt="Banner Primera Iberdrola" src="../img/banner.PNG">
+            </div>        
             <nav>
-                <a href="../index.html">Index</a>
-                <a href="./classif.html">Classificació</a>
-                <a href="./galeria.html">Galeria Audiovisual</a>
+                <ul>
+                    <li><a href="../index.html">Index</a></li>
+                    <li><a href="./classif.html">Classificació</a></li>
+                    <li><a href="./galeria.html">Galeria Audiovisual</a></li>
+                </ul>
             </nav>
         </header>
         <main>
-            <br>
-            <br>
-            <br>
-            <table border="5">
+            <table class="tabla">
                 <thead>
                     <tr>
                         <th colspan="8"> RESULTATS VALENCIA CF | 2020/2021</th>
@@ -88,10 +92,7 @@
                     </tr>
                 </tbody>
             </table>
-            <br>
-            <br>
-            <br>
-            <table border="1">
+            <table class="tabla">
                 <thead>
                     <tr>
                         <th colspan="7"> RESULTATS GLOBALS JORNADA 1 | 2020/2021</th>      
@@ -188,10 +189,7 @@
                     </tr>
                 </tbody>
             </table>
-            <br>
-            <br>
-            <br>
-            <table border="1">
+            <table class="tabla">
                 <thead>
                     <tr>
                         <th colspan="7"> RESULTATS GLOBALS JORNADA 2 | 2020/2021</th>      
@@ -288,10 +286,7 @@
                     </tr>
                 </tbody>
             </table>
-            <br>
-            <br>
-            <br>
-            <table border="1">
+            <table class="tabla">
                 <thead>
                     <tr>
                         <th colspan="7"> RESULTATS GLOBALS JORNADA 3 | 2020/2021</th>      
@@ -388,10 +383,8 @@
                     </tr>
                 </tbody>
             </table>
-        <br>
-        <br>
-        <br>
-        <table border="1">
+
+        <table class="tabla">
             <tr>
                 <th> RESULTATS GLOBALS JORNADA 4 | 2020/2021</th>
             </tr>
@@ -399,10 +392,8 @@
                 <th> Resultats pendents. (Partits disputats el próxim 1.11.2020)</th>      
             </tr>
         </table>
-        <br>
-        <br>
-        <br>
-        <table border="1">
+
+        <table class="tabla">
             <tr>
                 <th> RESULTATS GLOBALS JORNADA 5 | 2020/2021</th>
             </tr>
@@ -414,9 +405,6 @@
 
         </main>
         <footer>
-            <br>
-            <br>
-            <br>
             ©Valencia Féminas F.C
             <br>
             <a title="Facebook" href="https://www.facebook.com/ValenciaCF/" target="_blank"><img src="../img/rrss/facebook.png" alt="Link Facebook"></a>
@@ -432,5 +420,6 @@
             <br>
             Fax: 96 337 23 35
         </footer>
+    </div>
     </body>
 </html>
