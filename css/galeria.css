@@ -1,0 +1,13 @@
+article {
+    margin:7vh 40vh 7vh 40vh;
+    padding:auto;
+    text-align:center;
+    font-size: large;
+    font-weight: bold;
+    justify-items: center;
+}
+
+video, iframe{
+    width:80%;
+    border: 1px solid;
+}

@@ -1,0 +1,12 @@
+article {
+	padding: auto;
+	margin: 5vh 40vh 5vh 40vh;
+    text-align:center;
+    justify-items: center;
+}
+
+article img {
+    width:80%;
+    border-radius: 5px;
+    border: 1px solid;
+}
